@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasigit3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:configChanges="locale"
+        android:icon="@mipmap/ic_launcher_round">
+        <activity
+            android:name=".ui.main.FavoriteActivity"
+            android:exported="true"
+            android:label="@string/favorite"
+            android:theme="@style/Theme.AplikasiGit3" />
+        <activity
+            android:name=".ui.main.SettingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/Theme.AplikasiGit3" />
+        <activity
+            android:name=".ui.main.DetailActivity"
+            android:exported="true"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/Theme.AplikasiGit3" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AplikasiGit3" />
+        <activity
+            android:name=".ui.main.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

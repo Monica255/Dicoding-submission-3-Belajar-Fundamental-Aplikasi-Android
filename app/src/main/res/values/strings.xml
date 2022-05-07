@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GIT CAT</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="repository">Repository</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Enter usernamer</string>
+    <string name="title_activity_detail">Detail User</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="content_followers">No followers</string>
+    <string name="content_following">No following</string>
+    <string name="contentDescription">GIT CAT LOGO</string>
+    <string name="setting">Setting</string>
+    <string name="favorite">Favorite</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Appearance -->
+    <string name="appearance_setting">Appearance Setting</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="ONnight_mode_sum">Click to turn off night mode</string>
+    <string name="OFFnight_mode_sum">Click to turn on night mode</string>
+
+    <!-- Language -->
+    <string name="language">Language</string>
+    <string name="selected_lang">Current language is English</string>
+    <string name="select_lang">Select Language</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="english">English</string>
+
+    <string name="is_deleted_from_fav">is deleted from favorite</string>
+    <string name="is_added_to_fav">is added to favorite</string>
+    <string name="see_favorite">See favorite</string>
+    <string name="undo">Undo</string>
+
+
+</resources>
